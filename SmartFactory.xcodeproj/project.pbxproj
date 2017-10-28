@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E426FAC11FA4BAA80073FAC4 /* MachineDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426FAC01FA4BAA80073FAC4 /* MachineDetailViewController.swift */; };
+		E426FAC31FA4C5880073FAC4 /* PopupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426FAC21FA4C5880073FAC4 /* PopupDetailViewController.swift */; };
+		E426FAC81FA4C8AA0073FAC4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426FAC71FA4C8AA0073FAC4 /* UIColor.swift */; };
+		E426FACA1FA4FA0E0073FAC4 /* PathComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426FAC91FA4FA0E0073FAC4 /* PathComponent.swift */; };
+		E426FACC1FA503A90073FAC4 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426FACB1FA503A90073FAC4 /* UIImage.swift */; };
 		E4B808FD1FA3E3B900C2001F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B808FC1FA3E3B900C2001F /* AppDelegate.swift */; };
-		E4B808FF1FA3E3B900C2001F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B808FE1FA3E3B900C2001F /* FirstViewController.swift */; };
+		E4B808FF1FA3E3B900C2001F /* FloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B808FE1FA3E3B900C2001F /* FloorViewController.swift */; };
 		E4B809011FA3E3B900C2001F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B809001FA3E3B900C2001F /* SecondViewController.swift */; };
 		E4B809041FA3E3B900C2001F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B809021FA3E3B900C2001F /* Main.storyboard */; };
 		E4B809061FA3E3B900C2001F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B809051FA3E3B900C2001F /* Assets.xcassets */; };
 		E4B809091FA3E3B900C2001F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B809071FA3E3B900C2001F /* LaunchScreen.storyboard */; };
 		E4B809141FA3E3B900C2001F /* SmartFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B809131FA3E3B900C2001F /* SmartFactoryTests.swift */; };
+		E4B8091F1FA4619900C2001F /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8091E1FA4619900C2001F /* Floor.swift */; };
+		E4B809211FA461F200C2001F /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B809201FA461F200C2001F /* TileView.swift */; };
+		E4B809251FA46CD600C2001F /* FloorFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B809241FA46CD600C2001F /* FloorFetcher.swift */; };
+		E4B809271FA4703300C2001F /* FloorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B809261FA4703300C2001F /* FloorParser.swift */; };
+		E4B8092A1FA472AD00C2001F /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B809291FA472AD00C2001F /* Machine.swift */; };
+		E4B8092D1FA485C300C2001F /* MachineParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8092C1FA485C300C2001F /* MachineParkView.swift */; };
+		E4B8092F1FA4AD0900C2001F /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8092E1FA4AD0900C2001F /* Tile.swift */; };
+		E4D5F7381FA51AF1000E66C0 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D5F7361FA51AF1000E66C0 /* ItemDetailViewController.swift */; };
+		E4D5F7391FA51AF1000E66C0 /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4D5F7371FA51AF1000E66C0 /* ItemDetailViewController.xib */; };
+		E4D5F73B1FA52AB8000E66C0 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D5F73A1FA52AB8000E66C0 /* StatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E426FAC01FA4BAA80073FAC4 /* MachineDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineDetailViewController.swift; sourceTree = "<group>"; };
+		E426FAC21FA4C5880073FAC4 /* PopupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDetailViewController.swift; sourceTree = "<group>"; };
+		E426FAC71FA4C8AA0073FAC4 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E426FAC91FA4FA0E0073FAC4 /* PathComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathComponent.swift; sourceTree = "<group>"; };
+		E426FACB1FA503A90073FAC4 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		E4B808F91FA3E3B800C2001F /* SmartFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B808FC1FA3E3B900C2001F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4B808FE1FA3E3B900C2001F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E4B808FE1FA3E3B900C2001F /* FloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorViewController.swift; sourceTree = "<group>"; };
 		E4B809001FA3E3B900C2001F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E4B809031FA3E3B900C2001F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4B809051FA3E3B900C2001F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +58,16 @@
 		E4B8090F1FA3E3B900C2001F /* SmartFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B809131FA3E3B900C2001F /* SmartFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFactoryTests.swift; sourceTree = "<group>"; };
 		E4B809151FA3E3B900C2001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B8091E1FA4619900C2001F /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		E4B809201FA461F200C2001F /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		E4B809241FA46CD600C2001F /* FloorFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorFetcher.swift; sourceTree = "<group>"; };
+		E4B809261FA4703300C2001F /* FloorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorParser.swift; sourceTree = "<group>"; };
+		E4B809291FA472AD00C2001F /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		E4B8092C1FA485C300C2001F /* MachineParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineParkView.swift; sourceTree = "<group>"; };
+		E4B8092E1FA4AD0900C2001F /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		E4D5F7361FA51AF1000E66C0 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		E4D5F7371FA51AF1000E66C0 /* ItemDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
+		E4D5F73A1FA52AB8000E66C0 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E426FAC61FA4C7F40073FAC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E426FAC71FA4C8AA0073FAC4 /* UIColor.swift */,
+				E426FACB1FA503A90073FAC4 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E4B808F01FA3E3B800C2001F = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +118,12 @@
 		E4B808FB1FA3E3B800C2001F /* SmartFactory */ = {
 			isa = PBXGroup;
 			children = (
+				E426FAC61FA4C7F40073FAC4 /* Extensions */,
+				E4B8092B1FA485B300C2001F /* Views */,
+				E4B809281FA472A000C2001F /* Model */,
+				E4B809231FA46CC600C2001F /* Networking */,
+				E4B809221FA4672C00C2001F /* ViewControllers */,
 				E4B808FC1FA3E3B900C2001F /* AppDelegate.swift */,
-				E4B808FE1FA3E3B900C2001F /* FirstViewController.swift */,
 				E4B809001FA3E3B900C2001F /* SecondViewController.swift */,
 				E4B809021FA3E3B900C2001F /* Main.storyboard */,
 				E4B809051FA3E3B900C2001F /* Assets.xcassets */,
@@ -97,6 +140,48 @@
 				E4B809151FA3E3B900C2001F /* Info.plist */,
 			);
 			path = SmartFactoryTests;
+			sourceTree = "<group>";
+		};
+		E4B809221FA4672C00C2001F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4B808FE1FA3E3B900C2001F /* FloorViewController.swift */,
+				E426FAC01FA4BAA80073FAC4 /* MachineDetailViewController.swift */,
+				E426FAC21FA4C5880073FAC4 /* PopupDetailViewController.swift */,
+				E4D5F7361FA51AF1000E66C0 /* ItemDetailViewController.swift */,
+				E4D5F7371FA51AF1000E66C0 /* ItemDetailViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E4B809231FA46CC600C2001F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E4B809241FA46CD600C2001F /* FloorFetcher.swift */,
+				E4B809261FA4703300C2001F /* FloorParser.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E4B809281FA472A000C2001F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8091E1FA4619900C2001F /* Floor.swift */,
+				E4B809291FA472AD00C2001F /* Machine.swift */,
+				E4B8092E1FA4AD0900C2001F /* Tile.swift */,
+				E426FAC91FA4FA0E0073FAC4 /* PathComponent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4B8092B1FA485B300C2001F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4B809201FA461F200C2001F /* TileView.swift */,
+				E4B8092C1FA485C300C2001F /* MachineParkView.swift */,
+				E4D5F73A1FA52AB8000E66C0 /* StatusView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B809091FA3E3B900C2001F /* LaunchScreen.storyboard in Resources */,
+				E4D5F7391FA51AF1000E66C0 /* ItemDetailViewController.xib in Resources */,
 				E4B809061FA3E3B900C2001F /* Assets.xcassets in Resources */,
 				E4B809041FA3E3B900C2001F /* Main.storyboard in Resources */,
 			);
@@ -202,9 +288,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E426FAC81FA4C8AA0073FAC4 /* UIColor.swift in Sources */,
+				E4B8092D1FA485C300C2001F /* MachineParkView.swift in Sources */,
+				E4D5F7381FA51AF1000E66C0 /* ItemDetailViewController.swift in Sources */,
+				E4B809251FA46CD600C2001F /* FloorFetcher.swift in Sources */,
+				E4B809271FA4703300C2001F /* FloorParser.swift in Sources */,
+				E4B8091F1FA4619900C2001F /* Floor.swift in Sources */,
 				E4B809011FA3E3B900C2001F /* SecondViewController.swift in Sources */,
+				E4B8092F1FA4AD0900C2001F /* Tile.swift in Sources */,
+				E4B809211FA461F200C2001F /* TileView.swift in Sources */,
+				E426FACC1FA503A90073FAC4 /* UIImage.swift in Sources */,
+				E4B8092A1FA472AD00C2001F /* Machine.swift in Sources */,
+				E426FAC31FA4C5880073FAC4 /* PopupDetailViewController.swift in Sources */,
+				E4D5F73B1FA52AB8000E66C0 /* StatusView.swift in Sources */,
+				E426FAC11FA4BAA80073FAC4 /* MachineDetailViewController.swift in Sources */,
 				E4B808FD1FA3E3B900C2001F /* AppDelegate.swift in Sources */,
-				E4B808FF1FA3E3B900C2001F /* FirstViewController.swift in Sources */,
+				E426FACA1FA4FA0E0073FAC4 /* PathComponent.swift in Sources */,
+				E4B808FF1FA3E3B900C2001F /* FloorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soet.SmartFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -379,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soet.SmartFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
