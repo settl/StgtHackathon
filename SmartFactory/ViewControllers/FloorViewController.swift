@@ -24,10 +24,13 @@ class FloorViewController: UIViewController {
         setupTileViews()
         setupStackView()
         setupCapacityView()
-        fetchFloorInformation()
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            self.fetchFloorInformation()
+        }
     }
     
     func fetchFloorInformation() {
+        print("fetching")
         FloorFetcher().fetchMachineInfo { machines in
             self.machines = machines
             DispatchQueue.main.async {
@@ -111,9 +114,9 @@ class FloorViewController: UIViewController {
             capacityView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
             ])
         
-        let statusView = StatusView(status: .low)
-        statusView.translatesAutoresizingMaskIntoConstraints = false
-        capacityView.addSubview(statusView)
+//        let statusView = StatusView(status: .low)
+//        statusView.translatesAutoresizingMaskIntoConstraints = false
+//        capacityView.addSubview(statusView)
         
 //        NSLayoutConstraint.activate([
 //            statusView.topAnchor.constraint(equalTo: capacityView.topAnchor, constant: 20),
